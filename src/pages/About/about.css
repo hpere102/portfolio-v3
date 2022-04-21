@@ -5,15 +5,50 @@ element {
 
 main {
     display: flex;
-    background-color: burlywood;
     margin-left: 30%;
     margin-right: 30%;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
 
 .intro {
-    padding: 10px;
+    width: 100%;
+    background-color: rgba(58, 56, 56, 0.548);
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+.bio-title {
+    width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: darkgreen;
+}
+
+.picture-cont {
+    background-color: coral;
+}
+
+
+.avi-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 40px;
+    font-size: 600;
+    margin: 0;
+}
+
+.title {
+    margin: 0;
 }

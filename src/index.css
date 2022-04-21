@@ -40,5 +40,10 @@ body {
 
 .switch:hover {
   cursor: pointer;
-  opacity: 80%;
+  opacity: 90%;
+}
+
+.switch-light:hover {
+  cursor: pointer;
+  opacity: 90%;
 }
