@@ -1,0 +1,19 @@
+element {
+    --primary-color: rgb(27, 27, 27);
+    --secondary-color: blanchedalmond;
+  }
+
+main {
+    display: flex;
+    background-color: burlywood;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: center;
+}
+
+
+
+.intro {
+    padding: 10px;
+    display: flex;
+}

@@ -16,7 +16,29 @@ body {
 }
 
 .switch {
+  background-color: rgb(201, 194, 108);
+  font-size: 20px;
   width: 40px;
   height: 40px;
-  background-color: cadetblue;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.switch-light {
+  background-color: rgb(69, 46, 100);
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch:hover {
+  cursor: pointer;
+  opacity: 80%;
 }

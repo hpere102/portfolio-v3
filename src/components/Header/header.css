@@ -6,7 +6,51 @@ element {
 
 header {
     width: 100%;
-    background-color: darkgoldenrod;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 25%;
+}
+
+.header-right {
+    display: flex;
+    margin-right: 25%;
+    margin-left: 20px;
+}
+
+.link-cont {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.active {
+    background-color: rgb(6, 158, 158);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 3px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+
+.name-link {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 600;
 }

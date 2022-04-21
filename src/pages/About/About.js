@@ -1,5 +1,5 @@
 
-
+import './about.css'
 
 
 const About = () => {
@@ -7,7 +7,7 @@ const About = () => {
  
     return (
       <main>
-       HELLOOO
+       <div className="intro">Hello, I'm a full-stack developer based in Miami!</div>
   </main>
   
     );
