@@ -55,7 +55,6 @@ main {
 .about-cont {   
     display: flex;
     flex-direction: column;
-
 }
 
 .about-title {
@@ -66,7 +65,10 @@ main {
     border-bottom-width: 5px;
     width: fit-content;
     padding-bottom: 3px;
+    margin-bottom: 0;
 }
+
+
 
 .work-link {
     text-decoration: none;
@@ -78,4 +80,48 @@ main {
     width: fit-content;
     align-self: center;
     margin-top: 5px;
+}
+
+.work-link:hover {
+    opacity: 90%;
+}
+
+.bio-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-body-title {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-color: rgba(58, 56, 56, 0.548);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: fit-content;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+
+.fact-cont {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    
+}
+
+.year {
+    font-weight: 700;
+    font-size: 17px;
+    margin-right: 10px ;
+    
+}
+
+.facts {
+    margin-bottom: 0px;
+}
+
+.facts-cont {
+    display: flex;
+    flex-direction: column;
 }
