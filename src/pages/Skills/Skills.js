@@ -1,5 +1,6 @@
-
-
+import '../Skills/skills.css'
+import skill from '../../utils/skillData'
+import SkillCard from '../../components/SkillCard/SkillCard'
 
 
 const Skills = () => {
@@ -7,7 +8,10 @@ const Skills = () => {
  
     return (
       <main>
-       Skills
+       <div className="skill-title">Skills</div>
+       <div className="skill-cont">
+          <SkillCard data={skill} />
+       </div>
   </main>
   
     );
