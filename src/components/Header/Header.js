@@ -51,7 +51,7 @@ const Header = () => {
 
 <nav role="navigation">
   <ul>
-    <li><a href="#" ><i class="bi bi-chevron-double-down"></i></a>
+    <li><a href="." ><i class="bi bi-chevron-double-down"></i></a>
       <ul class="dropdown" aria-label="submenu">
       <li><Link to="/work">Work</Link></li>
       <li><Link to="/skills">Skills</Link></li>
