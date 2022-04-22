@@ -43,17 +43,15 @@ header {
 
 .active {
     background-color: rgb(6, 158, 158);
-    border-width: 2px;
-    border-style: solid;
-    border-color: white;
-    padding: 3px;
+    padding: 5px;
+    border-radius: 3px;
     
 }
 
 .nav-link {
     text-decoration: none;
     color: var(--secondary-color);
-    padding: 3px;
+    padding: 5px;
     
 }
 
