@@ -8,6 +8,19 @@ body {
   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
+}
+
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .dark {
@@ -25,6 +38,8 @@ body {
   justify-content: center;
   align-items: center;
   color: black;
+  transition: all 1s ease-in;
+  transition: all 2s ease-out;
 }
 
 .switch-light {
@@ -36,6 +51,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 1s ease-in;
+  transition: all 2s ease-out;
 }
 
 .switch:hover {
@@ -47,3 +64,5 @@ body {
   cursor: pointer;
   opacity: 90%;
 }
+
+

@@ -1,3 +1,11 @@
+main {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .5s;
+}
+
 .work-title {
     font-size: 20px;
     font-weight: 700;
@@ -55,3 +63,4 @@
 .work-desc {
     font-style: oblique;
 }
+

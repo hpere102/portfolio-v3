@@ -1,11 +1,12 @@
+
 element {
     --primary-color: rgb(27, 27, 27);
     --secondary-color: blanchedalmond;
   }
 
 
+
 header {
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,7 +17,6 @@ header {
     position: sticky; top: 0;
     background-color: rgba(27, 27, 27, 0.404);
     backdrop-filter: blur(8px);
-
 }
 
 
@@ -25,12 +25,14 @@ header {
     flex-direction: row;
     gap: 30px;
     margin-left: 25%;
+    
 }
 
 .header-right {
     display: flex;
     margin-right: 25%;
     margin-left: 20px;
+    
 }
 
 .link-cont {
@@ -41,6 +43,10 @@ header {
 
 .active {
     background-color: rgb(6, 158, 158);
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 3px;
     
 }
 
@@ -48,11 +54,27 @@ header {
     text-decoration: none;
     color: var(--secondary-color);
     padding: 3px;
+    
+}
+
+.nav-link-resume {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 3px;
+    margin-left: 15px;
+    color: rgb(241, 98, 210);
+    padding: 5px;
+    border-radius: 7px;
+    
+}
+
+.nav-link-resume:hover {
+    background-color: rgba(196, 79, 171, 0.164);
 }
 
 .nav-link:hover {
     text-decoration: underline;
-    padding-bottom: 2px;
+    
 }
 
 .name-link {
@@ -60,4 +82,8 @@ header {
     color: var(--secondary-color);
     font-size: 20px;
     font-weight: 600;
+}
+
+.bi-person-hearts {
+    margin-right: 10px;
 }

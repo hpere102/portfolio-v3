@@ -23,11 +23,14 @@ const Header = () => {
       <header>
        <div className="header-left">
            <div className="name-cont">
-           <Link className="name-link" to="/">Hector Perez</Link>
+           <Link className="name-link" to="/"><i class="bi bi-person-hearts"></i>Hector Perez</Link>
            </div>
            <div className="link-cont">
                <NavLink className="nav-link" activeClassName='active' to="/work">Work</NavLink>
                <NavLink className="nav-link" activeClassName='active' to="/skills">Skills</NavLink>
+               <a href={require("../../files/hectorperez-resume.pdf")} download="hector-perez-resume" className="nav-link-resume" role="button">
+               <i class="bi bi-cloud-arrow-down-fill"></i>  Resume
+              </a>
            </div>
        </div>
        <div className="header-right">
