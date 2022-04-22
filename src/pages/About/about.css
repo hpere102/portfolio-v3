@@ -60,7 +60,7 @@ main {
 .about-title {
     font-size: 20px;
     font-weight: 700;
-    border-bottom-color: rgba(58, 56, 56, 0.548);
+    border-bottom-color:rgba(112, 110, 110, 0.548);
     border-bottom-style: solid;
     border-bottom-width: 5px;
     width: fit-content;
@@ -94,7 +94,7 @@ main {
 .bio-body-title {
     font-size: 20px;
     font-weight: 700;
-    border-bottom-color: rgba(58, 56, 56, 0.548);
+    border-bottom-color: rgba(112, 110, 110, 0.548);
     border-bottom-style: solid;
     border-bottom-width: 5px;
     width: fit-content;
@@ -114,7 +114,7 @@ main {
     font-weight: 700;
     font-size: 17px;
     margin-right: 20px ;
-    
+    font-style: oblique;
 }
 
 
@@ -130,7 +130,7 @@ main {
 .contact-title {
     font-size: 20px;
     font-weight: 700;
-    border-bottom-color: rgba(58, 56, 56, 0.548);
+    border-bottom-color: rgba(129, 129, 129, 0.548);
     border-bottom-style: solid;
     border-bottom-width: 5px;
     width: fit-content;

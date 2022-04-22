@@ -1,6 +1,6 @@
-
-
-
+import '../Work/work.css'
+import work from '../../utils/workData'
+import WorkCard from '../../components/WorkCard/WorkCard'
 
 
 const Work = () => {
@@ -8,7 +8,10 @@ const Work = () => {
  
     return (
       <main>
-       Work
+       <div className="work-title">Work</div>
+       <div className="work-cont">
+          <WorkCard data={work} />
+       </div>
   </main>
   
     );
