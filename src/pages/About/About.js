@@ -27,16 +27,30 @@ const About = () => {
             <div className="facts-cont">
             <div className="fact-cont">
             <p class="year">1996</p>
-            <p className="facts"> Born, raised in Miami, Florida.</p>
+            <p className="facts"> Born and raised in Miami, Florida.</p>
             </div>
             <div className="fact-cont">
             <p class="year">2020</p>
-            <p className="facts"> Graduates Florida International University with a Bachelors in International Business.</p>
+            <p className="facts"> Graduated Florida International University with a Bachelors in International Business.</p>
             </div>
             <div className="fact-cont">
             <p class="year">2022</p>
-            <p className="facts"> Graduates University of Miami Full Stack Development Bootcamp after 6 months..</p>
+            <p className="facts"> Graduated University of Miami Full Stack Development Bootcamp after 6 months.</p>
             </div>
+            <div className="fact-cont">
+            <p class="year">2022 -</p>
+            <p className="facts">Freelance Full Stack Developer</p>
+            </div>
+            </div>
+            <div className="contact-cont">
+              <div className="contact-title">Social</div>
+              <div className="socials-cont">
+              <a className="social-link" target="_blank"  rel="noreferrer" href="https://github.com/hpere102"><i class="bi-github"></i>hpere102</a>
+              <a className="social-link" target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/hector-daniel-perez-631283179/"><i class="bi-linkedin"></i>hectordanielperez</a>
+              <a className="social-link" target="_blank"  rel="noreferrer" href="https://twitter.com/nanni_____"><i class="bi-twitter"></i>nannii</a>
+              <a className="social-link"  rel="noreferrer" href="mailto:hector.pere102@gmail.com"><i class="bi bi-envelope-fill"></i>hector.pere102@gmail.com</a>
+              </div>
+
             </div>
          </div>
        </div>
