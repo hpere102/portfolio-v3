@@ -7,6 +7,7 @@ element {
 
 
 header {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -84,3 +85,107 @@ header {
 .bi-person-hearts {
     margin-right: 10px;
 }
+
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+    font-family: monospace;
+    
+  }
+  
+  
+
+  ul {
+    
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    color: #fff;
+    background-color: rgba(85, 84, 84, 0.623);
+    flex-direction: column;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+    
+  li a {
+    color: #fff;
+  }
+  
+  li:hover,
+  li:focus-within {
+
+    display: block;
+    cursor: pointer;
+  }
+  
+  li:focus-within a {
+    outline: none;
+  }
+  
+  ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    width: fit-content;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+     visibility: visible;
+     opacity: 1;
+     display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+
+  .media-header {
+      display: none;
+  }
+
+@media all and (max-width:600px) {
+    
+   .header-left {
+       display: none;
+   }
+
+  .header-right {
+    display: none;
+  }
+
+  .media-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 22%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  }
+
+  header {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+  }
+}
+ 

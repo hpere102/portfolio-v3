@@ -23,7 +23,8 @@ const Header = () => {
       <header>
        <div className="header-left">
            <div className="name-cont">
-           <Link className="name-link" to="/"><i class="bi bi-person-hearts"></i>Hector Perez</Link>
+             <i class="bi bi-person-hearts"></i>
+           <Link className="name-link" to="/">Hector Perez</Link>
            </div>
            <div className="link-cont">
                <NavLink className="nav-link" activeClassName='active' to="/work">Work</NavLink>
@@ -36,6 +37,32 @@ const Header = () => {
        <div className="header-right">
        { showForm ? <div onClick={() => { lightMode(); hide(); }} className="switch-light"><i class="bi bi-moon-fill"></i></div> : <div onClick={() => { lightMode(); show(); }} className="switch"><i class="bi bi-brightness-high"></i></div> }
        </div>
+
+<div className="media-header">
+
+           <div className="">
+             <i class="bi bi-person-hearts"></i>
+           <Link className="name-link" to="/">Hector Perez</Link>
+           </div>
+
+           <div className="media-switch">
+       { showForm ? <div onClick={() => { lightMode(); hide(); }} className="switch-light"><i class="bi bi-moon-fill"></i></div> : <div onClick={() => { lightMode(); show(); }} className="switch"><i class="bi bi-brightness-high"></i></div> }
+       </div>
+
+<nav role="navigation">
+  <ul>
+    <li><a href="#" ><i class="bi bi-chevron-double-down"></i></a>
+      <ul class="dropdown" aria-label="submenu">
+      <li><Link to="/work">Work</Link></li>
+      <li><Link to="/skills">Skills</Link></li>
+      <li><a href={require("../../files/hectorperez-resume.pdf")} download="hector-perez-resume" role="button">
+               <i class="bi bi-cloud-arrow-down-fill"></i>  Resume
+              </a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
   </header>
   
     );

@@ -172,3 +172,12 @@ main {
 .bi-envelope-fill {
     margin-right: 10px;
 }
+
+@media all and (max-width:600px) {
+    
+   main {
+       margin-left: 12%;
+       margin-right: 12%;
+   }
+
+}
