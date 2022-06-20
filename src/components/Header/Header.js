@@ -55,7 +55,7 @@ const Header = () => {
       <ul class="dropdown" aria-label="submenu">
       <li><Link to="/work">Work</Link></li>
       <li><Link to="/skills">Skills</Link></li>
-      <li><a href={require("../../files/hectorperez-resume.pdf")} download="hector-perez-resume" role="button">
+      <li><a href={require("../../files/HectorPerezResume.pdf")} download="hector-perez-resume" role="button">
                <i class="bi bi-cloud-arrow-down-fill"></i>  Resume
               </a></li>
       </ul>

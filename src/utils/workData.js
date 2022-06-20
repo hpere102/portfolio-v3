@@ -1,17 +1,17 @@
 const work = [
     {
+        name:"Real Estate Web Page (freelance)",
+        description:"Web page with information on realtor.",
+        github: "https://github.com/hpere102/real-estate-web",
+        deployed: "https://chelseachangre.netlify.app/",
+        image: "https://i.imgur.com/aCyYPek.jpg"
+    },
+    {
         name:"RPG Game DEMO",
         description:"Top down rpg game where character spawns on an island. The rest is up to you.",
         github: "https://github.com/hpere102/rpg-game",
         deployed: "https://hpere102.github.io/rpg-game/",
         image: "https://i.imgur.com/0UgRQsE.png"
-    },
-    {
-        name:"Super Smash Bros DB",
-        description:"Database for super smash bros characters.",
-        github: "https://github.com/hpere102/super-smash-bros-app",
-        deployed: "https://super-smash-bros-db.netlify.app/",
-        image: "https://i.imgur.com/U4SDoo0.png"
     },
     {
         name:"goHere",
@@ -26,6 +26,13 @@ const work = [
         github: "https://github.com/hpere102/weather-dashboard",
         deployed: "https://hpere102.github.io/weather-dashboard/",
         image: "https://i.imgur.com/lwb58nd.png"
+    },
+    {
+        name:"Super Smash Bros DB",
+        description:"Database for super smash bros characters.",
+        github: "https://github.com/hpere102/super-smash-bros-app",
+        deployed: "https://super-smash-bros-db.netlify.app/",
+        image: "https://i.imgur.com/U4SDoo0.png"
     },
     {
         name:"Work Day Scheduler",
