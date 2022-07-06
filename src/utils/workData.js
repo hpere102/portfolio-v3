@@ -1,5 +1,12 @@
 const work = [
     {
+        name:"Personal Trainer Web Page (freelance)",
+        description:"Web page with information on personal trainer.",
+        github: "https://github.com/hpere102/pt-web",
+        deployed: "https://rickieali.netlify.app/",
+        image: "https://i.imgur.com/W5cAqD2.jpg"
+    },
+    {
         name:"Real Estate Web Page (freelance)",
         description:"Web page with information on realtor.",
         github: "https://github.com/hpere102/real-estate-web",
@@ -51,3 +58,4 @@ const work = [
 ]
 
 module.exports = work;
+
